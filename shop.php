@@ -88,6 +88,12 @@ if(isset($_POST['add_to_cart'])){
 
 
 
+
+
+
+
+<?php include 'footer.php'; ?>
+
 <!-- custom js file link  -->
 <script src="js/script.js"></script>
 
