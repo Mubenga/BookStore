@@ -122,6 +122,7 @@ if(isset($_POST['order_btn'])){
                <option value="paytm">paytm</option>
             </select>
          </div>
+         
          <div class="inputBox">
             <span>address line 01 :</span>
             <input type="text" min="0" name="flat" required placeholder="e.g. flat name">

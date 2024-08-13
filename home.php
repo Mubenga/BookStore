@@ -52,7 +52,7 @@ if(isset($_POST['add_to_cart'])){
 <section class="home">
 
      <div class="content">
-         <h3>Hand Picked Book to your door.</h3>
+         <h3>Discover the books you love.</h3>
          <p>Welcome to our collection of beautifully crafted eBooks, where every page invites you into a world of endless imagination and discovery !</p>
          <a href="#" class="white-btn">discover more</a>
       </div>
@@ -61,7 +61,7 @@ if(isset($_POST['add_to_cart'])){
 
 <section class="products">
 
-   <h1 class="title">latest products</h1>
+   <h1 class="title">products</h1>
 
    <div class="box-container">
 
@@ -86,11 +86,42 @@ if(isset($_POST['add_to_cart'])){
          echo '<p class="empty">no products added yet!</p>';
       }
       ?>
+
    </div>
 
    <div class="load-more" style="margin-top: 2rem; text-align:center">
       <a href="shop.php" class="option-btn">load more</a>
    </div>
+
+</section>
+
+<section class="about">
+
+   <div class="flex">
+
+      <div class="image">
+         <img src="images/about-img.jpg" alt="">
+      </div>
+
+      <div class="content">
+         <h3>About Us</h3>
+         <p>Welcome to our organization! We are dedicated to providing exceptional service and delivering high-quality products to our valued customers. Our team is passionate, skilled, and committed to excellence in everything we do. Discover more about our journey, mission, and the values that drive us every day.</p>
+         <a href="about.php" class="btn">Read More</a>
+      </div>
+
+
+   </div>
+
+</section>
+
+<section class="home-contact">
+
+      <div class="content">
+         <h3>Have Any Questions?</h3>
+         <p>If you have any questions or need further information, please don't hesitate to reach out to us. Our team is here to help you with any inquiries you may have. We look forward to hearing from you!</p>
+         <a href="contact.php" class="white-btn">Contact Us</a>
+      </div>
+
 
 </section>
 

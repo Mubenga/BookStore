@@ -36,7 +36,26 @@ if(!isset($user_id)){
    <p> <a href="home.php">home</a> / about </p>
 </div>
 
+<section class="about">
 
+   <div class="flex">
+
+      <div class="image">
+         <img src="images/about-img.jpg" alt="">
+      </div>
+
+      <div class="content">
+         <h3>why choose us?</h3>
+         <p>Welcome to our organization! We are dedicated to providing exceptional service and delivering high-quality products to our valued customers. Our team is passionate, skilled, and committed to excellence in everything we do. Discover more about our journey, mission, and the values that drive us every day.</p>
+         <p>Welcome to our organization! We are dedicated to providing exceptional service and delivering high-quality products to our valued customers. Our team is passionate, skilled, and committed to excellence in everything we do.</p>
+         <a href="contact.php" class="btn">contact us</a>
+      </div>
+
+   </div>
+
+</section>
+
+<?php include 'footer.php'; ?>
 
 <!-- custom js file link  -->
 <script src="js/script.js"></script>
